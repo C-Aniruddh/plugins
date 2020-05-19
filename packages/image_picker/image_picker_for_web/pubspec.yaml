@@ -16,7 +16,7 @@ flutter:
 dependencies:
   image_picker_platform_interface:
     git:
-      url: 'git://github.com/ditman/plugins.git'
+      url: 'git://github.com/C-Aniruddh/plugins.git'
       ref: 'image-picker-web'
       path: 'packages/image_picker/image_picker_platform_interface'
   flutter:
