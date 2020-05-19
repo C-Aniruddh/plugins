@@ -9,7 +9,10 @@ dependencies:
   flutter_plugin_android_lifecycle: ^1.0.0
   google_maps_flutter_platform_interface: ^1.0.1
   google_maps_flutter_web:
-    path: ../google_maps_flutter_web
+    git:
+      url: git://github.com/ditman/plugins.git
+      ref: 'gmaps-web'
+      path: packages/google_maps_flutter/google_maps_flutter_web
 
 dev_dependencies:
   flutter_test:
