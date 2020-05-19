@@ -23,12 +23,12 @@ dependencies:
     git:
       url: 'git://github.com/ditman/plugins.git'
       ref: 'image-picker-web'
-      path: 'packages/image_picker_platform_interface/image_picker_platform_interface'
+      path: 'packages/image_picker/image_picker_platform_interface'
   image_picker_for_web:
     git:
       url: 'git://github.com/ditman/plugins.git'
       ref: 'image-picker-web'
-      path: 'packages/image_picker_for_web/image_picker_for_web'
+      path: 'packages/image_picker/image_picker_for_web'
 
 dev_dependencies:
   video_player: ^0.10.3
